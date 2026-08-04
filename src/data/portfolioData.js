@@ -313,8 +313,23 @@ export const certificatesList = [
 
 export const experienceList = [
   {
+    organization: "Kotraya Technologies",
+    role: "DevOps Intern",
+    duration: "May 2026 – Present",
+    location: "Bengaluru, India",
+    responsibilities: [
+      "Built an end-to-end CI/CD pipeline using GitHub, Jenkins, Maven, SonarQube, Docker, and AWS EC2 to automate build, testing, code quality analysis, containerization, and deployment.",
+      "Automated AWS infrastructure provisioning using Terraform by creating reusable modules for EC2, VPC, IAM, and S3.",
+      "Implemented Infrastructure as Code (IaC) practices to ensure consistent, scalable, and version-controlled cloud deployments.",
+      "Improved deployment efficiency by reducing manual tasks through automation and standardized DevOps workflows.",
+      "Worked with Git for version control, Linux environments, Docker containers, and AWS cloud services."
+    ],
+    tech: ["AWS", "Terraform", "Docker", "Kubernetes", "Jenkins", "Prometheus", "Grafana", "ELK Stack"]
+  },
+  
+  {
     organization: "MicroDegree",
-    role: "DevOps Engineer Intern",
+    role: "Cloud & DevOps Engineer Intern",
     duration: "Jan 2026 – June 2026",
     location: "Bengaluru, India",
     responsibilities: [
